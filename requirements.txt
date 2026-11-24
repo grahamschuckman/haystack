@@ -14,9 +14,9 @@ scipy>=1.3.2
 sklearn
 # Metrics or logging related
 seqeval
-mlflow<=1.13.1
+mlflow==3.17.2
 # huggingface repository
-transformers==4.7.0
+transformers==5.10.0
 # pickle extension for (de-)serialization
 dill
 # Inference with ONNX models. Install onnxruntime-gpu for Inference on GPUs
@@ -36,7 +36,7 @@ coverage
 langdetect # for PDF conversions
 # for PDF conversions using OCR
 pytesseract==0.3.7 
-pillow==8.3.2
+pillow==13.0.0
 pdf2image==1.14.0
 sentence-transformers>=0.4.0
 python-multipart
@@ -60,6 +60,6 @@ pymilvus
 SPARQLWrapper
 mmh3
 weaviate-client==2.5.0
-ray==1.5.0
+ray==2.56.0
 dataclasses-json
 quantulum3
